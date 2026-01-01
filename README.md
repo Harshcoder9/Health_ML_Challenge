@@ -2,6 +2,6 @@
 
 ## CareRoute
 
-## Solution Architece
+## Solution Architecture
 
 ![Solution Architecture](solution_architecture.png)
