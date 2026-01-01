@@ -1,0 +1,24 @@
+Patient_ID: P_10008
+Age: 22
+Gender: Male
+
+--- Symptoms ---
+Fever for 4 days
+Body aches
+Sore throat
+
+--- Vitals ---
+BP: 115/75
+HR: 90
+
+--- Lab Reports ---
+CBC: Viral pattern
+
+--- Doctor Notes ---
+Likely viral infection
+
+--- Final Department ---
+General Medicine
+
+--- Outcome ---
+Symptomatic treatment given

@@ -1,0 +1,24 @@
+Patient_ID: P_10017
+Age: 61
+Gender: Female
+
+--- Symptoms ---
+Persistent cough
+Blood in sputum
+Weight loss
+
+--- Vitals ---
+BP: 135/90
+HR: 96
+
+--- Lab Reports ---
+Chest X-ray: Lung mass
+
+--- Doctor Notes ---
+Further oncology evaluation required
+
+--- Final Department ---
+Pulmonology
+
+--- Outcome ---
+Referred to Oncology

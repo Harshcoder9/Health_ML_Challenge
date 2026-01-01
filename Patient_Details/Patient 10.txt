@@ -1,0 +1,25 @@
+Patient_ID: P_10010
+Age: 55
+Gender: Male
+
+--- Symptoms ---
+Chest pain radiating to left arm
+Shortness of breath
+Nausea
+
+--- Vitals ---
+BP: 170/105
+HR: 110
+
+--- Lab Reports ---
+ECG: ST elevation
+Troponin: Elevated
+
+--- Doctor Notes ---
+Acute myocardial infarction suspected
+
+--- Final Department ---
+Cardiology
+
+--- Outcome ---
+Emergency angioplasty done

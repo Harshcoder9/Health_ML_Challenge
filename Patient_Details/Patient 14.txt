@@ -1,0 +1,24 @@
+Patient_ID: P_10014
+Age: 58
+Gender: Male
+
+--- Symptoms ---
+Difficulty swallowing
+Weight loss
+Hoarseness
+
+--- Vitals ---
+BP: 130/85
+HR: 88
+
+--- Lab Reports ---
+Endoscopy: Abnormal growth
+
+--- Doctor Notes ---
+Further evaluation required
+
+--- Final Department ---
+ENT
+
+--- Outcome ---
+Biopsy planned

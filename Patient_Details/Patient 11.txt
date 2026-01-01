@@ -1,0 +1,24 @@
+Patient_ID: P_10011
+Age: 36
+Gender: Female
+
+--- Symptoms ---
+Neck pain
+Stiffness
+Reduced range of motion
+
+--- Vitals ---
+BP: 118/76
+HR: 74
+
+--- Lab Reports ---
+X-ray Cervical Spine: Muscle spasm
+
+--- Doctor Notes ---
+Cervical spondylosis suspected
+
+--- Final Department ---
+Orthopedics
+
+--- Outcome ---
+Physiotherapy advised

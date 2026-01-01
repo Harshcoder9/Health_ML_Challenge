@@ -1,0 +1,24 @@
+Patient_ID: P_10002
+Age: 32
+Gender: Female
+
+--- Symptoms ---
+Severe headache
+Nausea
+Sensitivity to light
+
+--- Vitals ---
+BP: 120/80
+HR: 78
+
+--- Lab Reports ---
+CT Brain: Normal
+
+--- Doctor Notes ---
+Likely migraine episode
+
+--- Final Department ---
+Neurology
+
+--- Outcome ---
+Medication prescribed, discharged

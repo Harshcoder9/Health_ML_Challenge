@@ -1,0 +1,24 @@
+Patient_ID: P_10007
+Age: 65
+Gender: Male
+
+--- Symptoms ---
+Joint pain
+Morning stiffness
+Swelling in hands
+
+--- Vitals ---
+BP: 135/88
+HR: 80
+
+--- Lab Reports ---
+RA Factor: Positive
+
+--- Doctor Notes ---
+Possible rheumatoid arthritis
+
+--- Final Department ---
+Rheumatology
+
+--- Outcome ---
+Long-term treatment initiated

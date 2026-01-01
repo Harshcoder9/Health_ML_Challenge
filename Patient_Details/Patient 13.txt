@@ -1,0 +1,24 @@
+Patient_ID: P_10013
+Age: 29
+Gender: Female
+
+--- Symptoms ---
+Missed periods
+Lower abdominal pain
+Nausea
+
+--- Vitals ---
+BP: 110/72
+HR: 86
+
+--- Lab Reports ---
+Pregnancy Test: Positive
+
+--- Doctor Notes ---
+Early pregnancy confirmed
+
+--- Final Department ---
+Obstetrics & Gynecology
+
+--- Outcome ---
+Antenatal care initiated

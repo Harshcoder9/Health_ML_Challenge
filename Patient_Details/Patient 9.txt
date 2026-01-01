@@ -1,0 +1,24 @@
+Patient_ID: P_10009
+Age: 48
+Gender: Female
+
+--- Symptoms ---
+Abdominal bloating
+Irregular bowel movements
+Weight loss
+
+--- Vitals ---
+BP: 118/78
+HR: 82
+
+--- Lab Reports ---
+Ultrasound Abdomen: Normal
+
+--- Doctor Notes ---
+Further GI evaluation advised
+
+--- Final Department ---
+Gastroenterology
+
+--- Outcome ---
+OPD follow-up scheduled

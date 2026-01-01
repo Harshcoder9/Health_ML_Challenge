@@ -1,0 +1,25 @@
+Patient_ID: P_10001
+Age: 45
+Gender: Male
+
+--- Symptoms ---
+Chest tightness for 2 days
+Mild shortness of breath
+Sweating
+
+--- Vitals ---
+BP: 140/90
+HR: 92
+
+--- Lab Reports ---
+ECG: Normal
+Troponin: Normal
+
+--- Doctor Notes ---
+Cardiac evaluation advised
+
+--- Final Department ---
+Cardiology
+
+--- Outcome ---
+OPD evaluation done

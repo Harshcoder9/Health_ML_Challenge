@@ -1,0 +1,25 @@
+Patient_ID: P_10003
+Age: 60
+Gender: Male
+
+--- Symptoms ---
+Breathlessness for 1 week
+Persistent cough
+Wheezing
+
+--- Vitals ---
+BP: 130/85
+HR: 104
+
+--- Lab Reports ---
+Chest X-ray: Hyperinflation
+Oxygen Saturation: 90%
+
+--- Doctor Notes ---
+Possible COPD exacerbation
+
+--- Final Department ---
+Pulmonology
+
+--- Outcome ---
+Admitted for observation

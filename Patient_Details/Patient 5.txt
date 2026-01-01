@@ -1,0 +1,24 @@
+Patient_ID: P_10005
+Age: 50
+Gender: Male
+
+--- Symptoms ---
+Sudden weakness on right side
+Slurred speech
+Dizziness
+
+--- Vitals ---
+BP: 160/100
+HR: 96
+
+--- Lab Reports ---
+CT Brain: Ischemic changes
+
+--- Doctor Notes ---
+Stroke suspected
+
+--- Final Department ---
+Neurology
+
+--- Outcome ---
+Admitted to ICU

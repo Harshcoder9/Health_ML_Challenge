@@ -1,0 +1,24 @@
+Patient_ID: P_10016
+Age: 34
+Gender: Male
+
+--- Symptoms ---
+Lower back pain
+Radiating leg pain
+Numbness
+
+--- Vitals ---
+BP: 125/80
+HR: 82
+
+--- Lab Reports ---
+MRI Spine: Disc prolapse
+
+--- Doctor Notes ---
+Lumbar disc herniation
+
+--- Final Department ---
+Orthopedics
+
+--- Outcome ---
+Conservative treatment advised
