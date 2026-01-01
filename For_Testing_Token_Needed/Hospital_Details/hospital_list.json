@@ -1,0 +1,26 @@
+[
+    {
+        "hospital": "AAA",
+        "department": [
+            "Neurology"
+        ]
+    },
+    {
+        "hospital": "BBB",
+        "department": [
+            "Pulmonology"
+        ]
+    },
+    {
+        "hospital": "CCC",
+        "department": [
+            "Cardiology"
+        ]
+    },
+    {
+        "hospital": "DDD",
+        "department": [
+            "Cardiology"
+        ]
+    }
+]

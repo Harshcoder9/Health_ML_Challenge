@@ -1,0 +1,24 @@
+Patient_ID: P_10018
+Age: 27
+Gender: Male
+
+--- Symptoms ---
+Anxiety
+Insomnia
+Palpitations
+
+--- Vitals ---
+BP: 118/76
+HR: 102
+
+--- Lab Reports ---
+ECG: Normal
+
+--- Doctor Notes ---
+Anxiety disorder suspected
+
+--- Final Department ---
+Psychiatry
+
+--- Outcome ---
+Counseling initiated

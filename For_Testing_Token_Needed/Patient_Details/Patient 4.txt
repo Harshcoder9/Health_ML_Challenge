@@ -1,0 +1,24 @@
+Patient_ID: P_10004
+Age: 28
+Gender: Female
+
+--- Symptoms ---
+Lower abdominal pain
+Burning sensation during urination
+Fever
+
+--- Vitals ---
+BP: 110/70
+HR: 88
+
+--- Lab Reports ---
+Urine Analysis: Infection present
+
+--- Doctor Notes ---
+Urinary tract infection suspected
+
+--- Final Department ---
+General Medicine
+
+--- Outcome ---
+Oral antibiotics given

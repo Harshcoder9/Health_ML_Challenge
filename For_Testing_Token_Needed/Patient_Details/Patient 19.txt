@@ -1,0 +1,25 @@
+Patient_ID: P_10019
+Age: 52
+Gender: Female
+
+--- Symptoms ---
+Swelling in legs
+Fatigue
+Reduced urine output
+
+--- Vitals ---
+BP: 145/95
+HR: 88
+
+--- Lab Reports ---
+Creatinine: Elevated
+Urine Protein: Positive
+
+--- Doctor Notes ---
+Renal dysfunction suspected
+
+--- Final Department ---
+Nephrology
+
+--- Outcome ---
+Admitted for evaluation

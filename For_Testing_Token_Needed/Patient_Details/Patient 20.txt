@@ -1,0 +1,24 @@
+Patient_ID: P_10020
+Age: 39
+Gender: Male
+
+--- Symptoms ---
+High fever
+Severe body pain
+Eye pain
+
+--- Vitals ---
+BP: 110/70
+HR: 95
+
+--- Lab Reports ---
+Platelet Count: Low
+
+--- Doctor Notes ---
+Possible viral fever
+
+--- Final Department ---
+General Medicine
+
+--- Outcome ---
+Hospitalized for monitoring

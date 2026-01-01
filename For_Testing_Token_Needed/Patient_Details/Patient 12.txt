@@ -1,0 +1,25 @@
+Patient_ID: P_10012
+Age: 70
+Gender: Male
+
+--- Symptoms ---
+Confusion
+High fever
+Reduced urine output
+
+--- Vitals ---
+BP: 90/60
+HR: 120
+
+--- Lab Reports ---
+CBC: Elevated WBC
+Creatinine: High
+
+--- Doctor Notes ---
+Sepsis suspected
+
+--- Final Department ---
+Internal Medicine
+
+--- Outcome ---
+Admitted to ICU
