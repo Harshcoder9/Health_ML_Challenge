@@ -1,13 +1,9 @@
 
 import os, json
-#from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from sentence_transformers import SentenceTransformer
 from langchain_core.vectorstores import InMemoryVectorStore
 import numpy as np
 from collections import defaultdict
-
-# token
-#google_token = json.loads(open("tkn.json", "r").read())["google_tkn"]
 
 # creating patient database list
 patient_detail_path = "Patient_Details"
@@ -75,7 +71,6 @@ print("---Chunks---")
 print(chunks[0:4])
 
 # creating embedding
-#embeddings = GoogleGenerativeAIEmbeddings(model="models/gemini-embedding-001", google_api_key=google_token)
 embeddings = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
 
 vector_store = []
