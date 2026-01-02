@@ -1,12 +1,13 @@
 
 import os, json
-from langchain_google_genai import GoogleGenerativeAIEmbeddings
+#from langchain_google_genai import GoogleGenerativeAIEmbeddings
+from sentence_transformers import SentenceTransformer
 from langchain_core.vectorstores import InMemoryVectorStore
 import numpy as np
 from collections import defaultdict
 
 # token
-google_token = json.loads(open("tkn.json", "r").read())["google_tkn"]
+#google_token = json.loads(open("tkn.json", "r").read())["google_tkn"]
 
 # creating patient database list
 patient_detail_path = "Patient_Details"
@@ -74,13 +75,14 @@ print("---Chunks---")
 print(chunks[0:4])
 
 # creating embedding
-embeddings = GoogleGenerativeAIEmbeddings(model="models/gemini-embedding-001", google_api_key=google_token)
+#embeddings = GoogleGenerativeAIEmbeddings(model="models/gemini-embedding-001", google_api_key=google_token)
+embeddings = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
 
 vector_store = []
 
 for chunk in chunks:
     vector_store.append({
-        "embedding": embeddings.embed_query(chunk["text"], task_type="RETRIEVAL_DOCUMENT"),
+        "embedding": embeddings.encode(chunk["text"]),
         "text": chunk["text"],
         "metadata": chunk["metadata"]
         })
@@ -90,7 +92,7 @@ print("---vector store---")
 
 # retrieval
 def query_embedding(query_text):
-    return embeddings.embed_query(query_text, task_type="RETRIEVAL_QUERY")
+    return embeddings.encode(query_text)
 
 def cosine_similarity(a, b):
     return np.dot(a, b) / (np.linalg.norm(a) * np.linalg.norm(b))
