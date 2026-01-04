@@ -1,4 +1,5 @@
 import streamlit as st
+import ai_med
 
 # =========================
 # PAGE CONFIG

@@ -92,3 +92,7 @@ pip install -r requirements.txt
 3️⃣ Run the Streamlit app
 
 streamlit run landing.py
+
+--- PLEASE WAIT FOR FEW MINUTES BEFORE THE APPLICATION BECOMES FULLY OPERATIONAL AND YOU WOULD GET BELOW LANDING PAGE - As hospital patients vector database building takes few minutes.
+
+![Landing Page](landing_page.png)
