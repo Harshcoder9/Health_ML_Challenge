@@ -1,0 +1,15 @@
+[
+    {
+        "Department": "Cardiology",
+        "Doctor_List": [
+            {
+                "Doctor_Name": "Dr. Sudhirranjan Dash",
+                "Available_Time_Slots": [
+                    "02-01-2026 10:00am",
+                    "02-01-2026 12:00pm"
+                ]
+            }
+        ],
+        "Directions_Link": "https://www.google.com/maps/search/?api=1&query=ACE+Heart+Hospital"
+    }
+]

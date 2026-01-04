@@ -1,0 +1,22 @@
+[
+  {
+    "hospital": "Fortis S L Raheja Hospital",
+    "department": ["Neurology"]
+  },
+  {
+    "hospital": "Sai Multispeciality Hospital",
+    "department": ["Pulmonology"]
+  },
+  {
+    "hospital": "ACE Heart Hospital",
+    "department": ["Cardiology"]
+  },
+  {
+    "hospital": "Lifeline Heart Institute & Critical Care Centre",
+    "department": ["Cardiology"]
+  },
+  {
+    "hospital": "Horizon Hospital",
+    "department": ["General Medicine"]
+  }
+]

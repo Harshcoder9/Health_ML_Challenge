@@ -1,0 +1,15 @@
+[
+    {
+        "Department": "Cardiology",
+        "Doctor_List": [
+            {
+                "Doctor_Name": "Dr. Ankur Phatarpekar",
+                "Available_Time_Slots": [
+                    "02-01-2026 1:00pm",
+                    "02-01-2026 2:00pm"
+                ]
+            }
+        ],
+        "Directions_Link": "https://www.google.com/maps/search/?api=1&query=Lifeline+Heart+Institute+%26+Critical+Care+Centre"
+    }
+]

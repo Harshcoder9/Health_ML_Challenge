@@ -1,0 +1,12 @@
+[
+  {
+    "Department": "General Medicine",
+    "Doctor_List": [
+      {
+        "Doctor_Name": "Dr. Raghuram Sekhar",
+        "Available_Time_Slots": ["02-01-2026 7:00pm", "02-01-2026 8:30pm"]
+      }
+    ],
+    "Directions_Link": "https://www.google.com/maps/search/?api=1&query=Horizon+Hospital+in+Thane"
+  }
+]

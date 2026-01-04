@@ -1,0 +1,15 @@
+[
+    {
+        "Department": "Pulmonology",
+        "Doctor_List": [
+            {
+                "Doctor_Name": "Dr. Shilpa Jain",
+                "Available_Time_Slots": [
+                    "02-01-2026 3:00pm",
+                    "02-01-2026 4:00pm"
+                ]
+            }
+        ],
+        "Directions_Link": "https://www.google.com/maps/search/?api=1&query=Sai+Multispeciality+Hospital"
+    }
+]
