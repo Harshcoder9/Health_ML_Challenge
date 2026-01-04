@@ -44,66 +44,39 @@ This system is *not a medical diagnosis tool. It is intended **only for educatio
 
 ## 🧠 Solution Architecture Overview
 
-User Input
-
-Streamlit Frontend
-
-        ↓
-
-Backend Logic (Python)
-
-        ↓
-
-Chunking (Symptoms / Clinical / Assessment)
-
-        ↓
-
-AI Embeddings
-
-        ↓
-
-In-Memory Vector Store
-
-        ↓
-
-Similarity Retrieval + Rules
-
-        ↓
-
+User Input  
+Streamlit Frontend  
+        ↓  
+Backend Logic (Python)  
+        ↓  
+Chunking (Symptoms / Clinical / Assessment)  
+        ↓  
+AI Embeddings  
+        ↓  
+In-Memory Vector Store  
+        ↓  
+Similarity Retrieval + Rules  
+        ↓  
 Application Logic Response
 
 ---
 
 ## 🧠 Application Workflow
 
-User Input
-
-   ↓
-
-Symptoms + Reports
-
-   ↓
-
-NLP(AI Embeddings + Symantec Similarity)
-
-   ↓
-
-Report Analyzer
-
-   ↓
-
-AI Triage Engine
-
-   ↓
-
-Department Mapping
-
-   ↓
-
+User Input  
+   ↓  
+Symptoms + Reports  
+   ↓  
+NLP(AI Embeddings + Symantec Similarity)  
+   ↓  
+Report Analyzer  
+   ↓  
+AI Triage Engine  
+   ↓  
+Department Mapping  
+   ↓  
 Nearby Hospital Matching
-
-   ↓
-
+   ↓  
 Doctor Recommendation + Directions
 
 ---
