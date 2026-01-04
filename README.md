@@ -59,6 +59,8 @@ Similarity Retrieval + Rules
         ↓
 Application Logic Response
 
+---
+
 ## 🧠 Application Workflow
 
 User Input
@@ -76,6 +78,8 @@ Department Mapping
 Nearby Hospital Matching
    ↓
 Doctor Recommendation + Directions
+
+---
 
 ## How to run locally
 
