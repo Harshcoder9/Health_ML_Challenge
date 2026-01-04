@@ -42,11 +42,11 @@ model = load_model()
 # =========================
 # SIDEBAR NAVIGATION
 # =========================
-with st.sidebar:
 
+with st.sidebar:
     nav = st.radio(
         "Navigation",
-        ["🚨 Emergency", "🏥 AI Triage", "📄 Report Analyzer"],
+        ["🚨 Emergency", "🏥 AI Triage", "📄 Report Analyzer", "👤 My Profile"],
         index=2  # Current page
     )
 
@@ -72,6 +72,36 @@ if nav == "🚨 Emergency":
 elif nav == "🏥 AI Triage":
     st.switch_page("pages/dashboard.py")
 # 📄 Report Analyzer → stay here
+
+elif nav == "👤 My Profile":
+    st.subheader("👤 My Profile & Past Cases")
+
+    user = st.session_state.get("user_profile", {})
+
+    col1, col2 = st.columns([1, 2])
+
+    with col1:
+        st.markdown("### 🧾 Personal Details")
+        st.write(f"**Name:** {user.get('name', '-')}")
+        st.write(f"**Email:** {user.get('email', '-')}")
+        st.write(f"**Gender:** {user.get('gender', '-')}")
+        st.write(f"**DOB:** {user.get('dob', '-')}")
+        st.write(f"**Blood Group:** {user.get('blood_group', '-')}")
+        st.write(f"**Location:** {user.get('location', '-')}")
+
+    with col2:
+        st.markdown("### 📜 Past Health Cases")
+
+        if not st.session_state.past_cases:
+            st.info("No past health cases found.")
+        else:
+            for idx, case in enumerate(reversed(st.session_state.past_cases), 1):
+                with st.expander(f"🩺 Case {idx} | {case['date']}"):
+                    st.write(f"**Symptoms:** {case['query']}")
+                    st.write(f"**Department:** {case['department']}")
+                    st.write("**Summary:**")
+                    for p in case["summary"]:
+                        st.markdown(f"- {p}")
 
 # =========================
 # HELPER FUNCTIONS
@@ -176,7 +206,7 @@ def render_result(confirmed, missing, specialist, lang):
 # =========================
 st.markdown(
     """
-    <h1>CareRoute Dashboard 📊</h1>
+    <h1>CareRoute Dashboard </h1>
     <p style="color:gray">
     Understand your medical reports using AI (English / Hindi)
     </p>
@@ -235,7 +265,7 @@ if st.button("🔍 Analyze Report"):
                     st.subheader("📄 रिपोर्ट का संक्षिप्त सार (Hindi)")
                     for point in ai_med.generate_report_summary_hindi(symptoms, specialist):
                         st.markdown(f"- {point}")
-                        
+
                 maps_url = f"https://www.google.com/maps/search/{specialist}+near+me"
                 st.link_button(
                     f"📍 Find Nearest {specialist}",
