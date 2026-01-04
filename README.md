@@ -80,11 +80,15 @@ Doctor Recommendation + Directions
 ## How to run locally
 
 1️⃣ Clone the repository
+
 git clone https://github.com/Harshcoder9/AIXMedTech-hackathon.git
+
 cd AIXMedTech-hackathon
 
 2️⃣ Install dependencies
+
 pip install -r requirements.txt
 
 3️⃣ Run the Streamlit app
+
 streamlit run landing.py
