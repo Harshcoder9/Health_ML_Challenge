@@ -45,18 +45,31 @@ This system is *not a medical diagnosis tool. It is intended **only for educatio
 ## 🧠 Solution Architecture Overview
 
 User Input
+
 Streamlit Frontend
+
         ↓
+
 Backend Logic (Python)
+
         ↓
+
 Chunking (Symptoms / Clinical / Assessment)
+
         ↓
+
 AI Embeddings
+
         ↓
+
 In-Memory Vector Store
+
         ↓
+
 Similarity Retrieval + Rules
+
         ↓
+
 Application Logic Response
 
 ---
@@ -64,19 +77,33 @@ Application Logic Response
 ## 🧠 Application Workflow
 
 User Input
+
    ↓
+
 Symptoms + Reports
+
    ↓
+
 NLP(AI Embeddings + Symantec Similarity)
+
    ↓
+
 Report Analyzer
+
    ↓
+
 AI Triage Engine
+
    ↓
+
 Department Mapping
+
    ↓
+
 Nearby Hospital Matching
+
    ↓
+
 Doctor Recommendation + Directions
 
 ---
@@ -97,6 +124,6 @@ pip install -r requirements.txt
 
 streamlit run landing.py
 
---- PLEASE WAIT FOR FEW MINUTES BEFORE THE APPLICATION BECOMES FULLY OPERATIONAL AND YOU WOULD GET BELOW LANDING PAGE - As hospital patients vector database building takes few minutes.
+PLEASE WAIT FOR FEW MINUTES BEFORE THE APPLICATION BECOMES FULLY OPERATIONAL AND YOU WOULD GET BELOW LANDING PAGE - As hospital patients vector database building takes few minutes.
 
 ![Landing Page](landing_page.png)
