@@ -1,4 +1,4 @@
-# AIXMedTech-hackathon
+# Health_ML_Challenge
 
 ## CareRoute
 
